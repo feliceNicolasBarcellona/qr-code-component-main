@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style-desktop.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,18 +19,17 @@
 
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="container-img">
-        <img class="img" src="/images/image-qr-code.png" alt="qr-code"> 
-      </div>
-      <div class="container-body">
-        <p class="font title">Improve your front-end skills by building projects</p>
-        <p  class="font description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
-      </div>
-    </div>
-  </div>
-
+  <main>
+    <article class="card">
+      <figure>
+        <img src="/images/image-qr-code.png" alt="qr-code">
+      </figure>
+      <section class="body">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>  
+      </section>
+    </article>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Felice Nicolas Barcellona</a>.
