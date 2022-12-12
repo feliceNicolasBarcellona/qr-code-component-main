@@ -25,7 +25,8 @@ body {
 }
 
 main {
-  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
   height: 98vh;
   display: flex;
   align-items: center;
